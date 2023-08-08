@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    text-align: center; 
+}
+
+.navbar {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff; 
+    font-size: 16px; 
+    font-weight: normal;
+    transition: color 0.2s, font-size 0.3s, font-weight 0.3s; 
+}
+
+.navbar li a:hover {
+    color: #ff0000; 
+    font-size: 18px;
+    font-weight: bold; 
+}

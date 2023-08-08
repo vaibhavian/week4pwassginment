@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* Set the background color of the navigation bar */
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    padding: 10px 20px;
+    color: #fff; /* Set the default text color for navigation links */
+}
+
+/* Different border styles for each navigation item */
+.border1 {
+    border: 1px solid #fff;
+}
+
+.border2 {
+    border: 2px dashed #fff;
+}
+
+.border3 {
+    border: 3px dotted #fff;
+}
+
+.border4 {
+    border: 4px double #fff;
+}
+
+.border5 {
+    border: 5px groove #fff;
+}
+
+/* Change the text color on hover */
+.navbar li:hover {
+    color: #ff0000; /* Change the text color to red on hover */
+}

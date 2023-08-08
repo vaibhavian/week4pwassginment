@@ -1,0 +1,22 @@
+.content {
+    background-color: aqua;
+    padding: 3px;
+    margin-left: 3px;
+    margin-right: 3px;
+    width: 230px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+    background-color: rgba(159, 217, 211, 0.967);
+    color: white;
+    transition: background-color 0.2s ease;
+}
+.content:hover {
+    background-color: rgb(9, 253, 224);
+}
+img {
+    border-radius: 10px;
+}
+.text {
+    font-size: small;
+    color: black;
+}
